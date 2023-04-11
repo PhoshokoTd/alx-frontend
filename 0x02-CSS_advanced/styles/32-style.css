@@ -120,7 +120,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition: var(--transition-duration);
-    transition-property: var(--button-hover-color) var(--button-hover-background);
+    transition-property: color, background-color;
 }
 
 .visually-hidden {
@@ -345,7 +345,7 @@ ul.row {
     vertical-align: bottom;
 }
 
-.card-work:hover .card-image img {
+.card-work:hover .card-image {
     transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
